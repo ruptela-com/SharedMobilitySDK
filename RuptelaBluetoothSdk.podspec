@@ -21,5 +21,8 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = {
         'SWIFT_INCLUDE_PATHS' => '"$(PODS_ROOT)/Framework/RuptelaBluetoothSdk.framework"'
       }
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
