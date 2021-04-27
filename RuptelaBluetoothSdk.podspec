@@ -13,9 +13,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/ruptela-com/SharedMobilityCocoaPods.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
+  
   s.static_framework = true
 
-  s.ios.vendored_frameworks = 'RuptelaBluetoothSDK/Framework/RuptelaBluetoothSdk.framework'
+  s.ios.vendored_frameworks = 'RuptelaBluetoothSdk/Framework/RuptelaBluetoothSdk.framework'
   
   s.user_target_xcconfig = {
         'SWIFT_INCLUDE_PATHS' => '"$(PODS_ROOT)/Framework/RuptelaBluetoothSdk.framework"'
