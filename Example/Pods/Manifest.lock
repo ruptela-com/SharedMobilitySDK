@@ -1,0 +1,16 @@
+PODS:
+  - RuptelaBluetoothSdk (0.1.0)
+
+DEPENDENCIES:
+  - RuptelaBluetoothSdk (from `../`)
+
+EXTERNAL SOURCES:
+  RuptelaBluetoothSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RuptelaBluetoothSdk: 8b3465dd2c98fd5c56a307e522fc3c5334aff5c1
+
+PODFILE CHECKSUM: b9fc4775c0216750f0f71a17fc5adfa475b23fbf
+
+COCOAPODS: 1.10.1

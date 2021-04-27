@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RuptelaBluetoothSdk_Tests' do
+  pod 'RuptelaBluetoothSdk', :path => '../'
+  
+  
+end

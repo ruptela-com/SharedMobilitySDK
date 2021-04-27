@@ -1,0 +1,6 @@
+framework module RuptelaBluetoothSdk {
+  umbrella header "RuptelaBluetoothSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "RuptelaBluetoothSdk",
+  "version": "0.1.0",
+  "summary": "A short description of RuptelaBluetoothSdk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Antanas Stank/RuptelaBluetoothSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Antanas Stank": "antan.stank@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Antanas Stank/RuptelaBluetoothSdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RuptelaBluetoothSdk/Classes/**/*"
+}

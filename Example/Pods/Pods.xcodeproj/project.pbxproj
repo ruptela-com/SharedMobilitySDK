@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3408120FA006D66E263AE4755511240E /* Pods-RuptelaBluetoothSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2EF6197D080BAA5199934DC263A52CF /* Pods-RuptelaBluetoothSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3670236F1D75C39E556C56F295BFB45F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		685C1E0CC21BFC02E531A3CA6BEBB488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		76921165921DDA7E61D93937901797AF /* RuptelaBluetoothSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 649BAE054037724FAE92D0EE1336E096 /* RuptelaBluetoothSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919F1F85263814700078F8C5 /* RuptelaBluetoothSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919F1F84263814700078F8C5 /* RuptelaBluetoothSdk.framework */; platformFilter = ios; };
+		919F1F86263814700078F8C5 /* RuptelaBluetoothSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919F1F84263814700078F8C5 /* RuptelaBluetoothSdk.framework */; platformFilter = ios; };
+		D6FAF35920C07A6BC40812DC61609D75 /* RuptelaBluetoothSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7287AE6DCE1B24C282E8E9A4664DD000 /* RuptelaBluetoothSdk-dummy.m */; };
+		FDC62AC4A200533075954543BDEA3AF8 /* Pods-RuptelaBluetoothSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC56C57A2BF9801DFB7523AAC6FDB57 /* Pods-RuptelaBluetoothSdk_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F699595E7481AFDD90BC013B561FA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19EBD6E13C7D3F7C21C18D37C106A4EC;
+			remoteInfo = RuptelaBluetoothSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0264C38355DEE48ED159C2ADC3EE9DCD /* RuptelaBluetoothSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RuptelaBluetoothSdk-Info.plist"; sourceTree = "<group>"; };
+		100F55718E5548004A6DCF824624392A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2AFD99781EFC1D7956CB1962A076E355 /* Pods_RuptelaBluetoothSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuptelaBluetoothSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E25BD41387C842C8A3DF5241856D3D /* RuptelaBluetoothSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RuptelaBluetoothSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		445317F29AF72DAC4D73AEEB3CF0F2E7 /* Pods-RuptelaBluetoothSdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RuptelaBluetoothSdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4EC56C57A2BF9801DFB7523AAC6FDB57 /* Pods-RuptelaBluetoothSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RuptelaBluetoothSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		6081059B898DAF52583151C9F891D588 /* Pods-RuptelaBluetoothSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RuptelaBluetoothSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		649BAE054037724FAE92D0EE1336E096 /* RuptelaBluetoothSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RuptelaBluetoothSdk-umbrella.h"; sourceTree = "<group>"; };
+		6532FA6302DFA2CDD0D02BF1B4C4229E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6A4D7AE3F98C328D8C079D7D346A9CDF /* RuptelaBluetoothSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RuptelaBluetoothSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		714E4089210DD4A655F13D7251443039 /* RuptelaBluetoothSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RuptelaBluetoothSdk.debug.xcconfig; sourceTree = "<group>"; };
+		7287AE6DCE1B24C282E8E9A4664DD000 /* RuptelaBluetoothSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RuptelaBluetoothSdk-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E1B9505C22EFBB8623F064B1C64D336 /* Pods-RuptelaBluetoothSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RuptelaBluetoothSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8B264B0B08FFA159AA2581710424BAD8 /* RuptelaBluetoothSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RuptelaBluetoothSdk.modulemap; sourceTree = "<group>"; };
+		8C805A8697829DC5293371E5404A2221 /* RuptelaBluetoothSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RuptelaBluetoothSdk-prefix.pch"; sourceTree = "<group>"; };
+		919F1F84263814700078F8C5 /* RuptelaBluetoothSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RuptelaBluetoothSdk.framework; path = RuptelaBluetoothSdk/Framework/RuptelaBluetoothSdk.framework; sourceTree = "<group>"; };
+		921CD52DAF81A2C2A49A1EEE6043C873 /* Pods-RuptelaBluetoothSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RuptelaBluetoothSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB3540109C016242F022D8FE6DB4A059 /* Pods-RuptelaBluetoothSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RuptelaBluetoothSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E262F311FB39F98AA106132F7084CED0 /* Pods-RuptelaBluetoothSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RuptelaBluetoothSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F04A53D05D1778F1CCCA7430CF583180 /* RuptelaBluetoothSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RuptelaBluetoothSdk.release.xcconfig; sourceTree = "<group>"; };
+		F2EF6197D080BAA5199934DC263A52CF /* Pods-RuptelaBluetoothSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RuptelaBluetoothSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F85CDE7E2B66E1D2FFE8B010154D06B3 /* Pods-RuptelaBluetoothSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RuptelaBluetoothSdk_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D9F2A690718C4CBCDAAFBFB69D4E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919F1F86263814700078F8C5 /* RuptelaBluetoothSdk.framework in Frameworks */,
+				3670236F1D75C39E556C56F295BFB45F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BBCE7BB1C6867CD2E46337911ED471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919F1F85263814700078F8C5 /* RuptelaBluetoothSdk.framework in Frameworks */,
+				685C1E0CC21BFC02E531A3CA6BEBB488 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090D1A02E13A35CEEA88BAA0D2D93559 /* RuptelaBluetoothSdk */ = {
+			isa = PBXGroup;
+			children = (
+				919F1F84263814700078F8C5 /* RuptelaBluetoothSdk.framework */,
+				FFFBE18C3564B91CD5B4C754F25E5580 /* Pod */,
+				8745869C4CFF3984BCDF4278F7B9B582 /* Support Files */,
+			);
+			name = RuptelaBluetoothSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1CCC418312CD2F7AE0EF7FB46DBC228A /* Pods-RuptelaBluetoothSdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				921CD52DAF81A2C2A49A1EEE6043C873 /* Pods-RuptelaBluetoothSdk_Tests.modulemap */,
+				6081059B898DAF52583151C9F891D588 /* Pods-RuptelaBluetoothSdk_Tests-acknowledgements.markdown */,
+				CB3540109C016242F022D8FE6DB4A059 /* Pods-RuptelaBluetoothSdk_Tests-acknowledgements.plist */,
+				4EC56C57A2BF9801DFB7523AAC6FDB57 /* Pods-RuptelaBluetoothSdk_Tests-dummy.m */,
+				445317F29AF72DAC4D73AEEB3CF0F2E7 /* Pods-RuptelaBluetoothSdk_Tests-frameworks.sh */,
+				F85CDE7E2B66E1D2FFE8B010154D06B3 /* Pods-RuptelaBluetoothSdk_Tests-Info.plist */,
+				F2EF6197D080BAA5199934DC263A52CF /* Pods-RuptelaBluetoothSdk_Tests-umbrella.h */,
+				E262F311FB39F98AA106132F7084CED0 /* Pods-RuptelaBluetoothSdk_Tests.debug.xcconfig */,
+				7E1B9505C22EFBB8623F064B1C64D336 /* Pods-RuptelaBluetoothSdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-RuptelaBluetoothSdk_Tests";
+			path = "Target Support Files/Pods-RuptelaBluetoothSdk_Tests";
+			sourceTree = "<group>";
+		};
+		3DB01F3645689BCEF86512B28892C4DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC418312CD2F7AE0EF7FB46DBC228A /* Pods-RuptelaBluetoothSdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72972C6C38B82FD2AE37EDC1071308BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD99781EFC1D7956CB1962A076E355 /* Pods_RuptelaBluetoothSdk_Tests.framework */,
+				6A4D7AE3F98C328D8C079D7D346A9CDF /* RuptelaBluetoothSdk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8745869C4CFF3984BCDF4278F7B9B582 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B264B0B08FFA159AA2581710424BAD8 /* RuptelaBluetoothSdk.modulemap */,
+				7287AE6DCE1B24C282E8E9A4664DD000 /* RuptelaBluetoothSdk-dummy.m */,
+				0264C38355DEE48ED159C2ADC3EE9DCD /* RuptelaBluetoothSdk-Info.plist */,
+				8C805A8697829DC5293371E5404A2221 /* RuptelaBluetoothSdk-prefix.pch */,
+				649BAE054037724FAE92D0EE1336E096 /* RuptelaBluetoothSdk-umbrella.h */,
+				714E4089210DD4A655F13D7251443039 /* RuptelaBluetoothSdk.debug.xcconfig */,
+				F04A53D05D1778F1CCCA7430CF583180 /* RuptelaBluetoothSdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RuptelaBluetoothSdk";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ECAC2FDEC6E583967C43E9A87852FB6E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				72972C6C38B82FD2AE37EDC1071308BF /* Products */,
+				3DB01F3645689BCEF86512B28892C4DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECAC2FDEC6E583967C43E9A87852FB6E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				090D1A02E13A35CEEA88BAA0D2D93559 /* RuptelaBluetoothSdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FFFBE18C3564B91CD5B4C754F25E5580 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				100F55718E5548004A6DCF824624392A /* LICENSE */,
+				6532FA6302DFA2CDD0D02BF1B4C4229E /* README.md */,
+				30E25BD41387C842C8A3DF5241856D3D /* RuptelaBluetoothSdk.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		015D97019BD886CE994EE10A77662C12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76921165921DDA7E61D93937901797AF /* RuptelaBluetoothSdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7DAFC67F017048387B2A1D585EEDB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3408120FA006D66E263AE4755511240E /* Pods-RuptelaBluetoothSdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19EBD6E13C7D3F7C21C18D37C106A4EC /* RuptelaBluetoothSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4510354C87904C8B61FD2D4AB61534F1 /* Build configuration list for PBXNativeTarget "RuptelaBluetoothSdk" */;
+			buildPhases = (
+				015D97019BD886CE994EE10A77662C12 /* Headers */,
+				A3AEDDD63FEA3F876D2D63865F98557D /* Sources */,
+				18D9F2A690718C4CBCDAAFBFB69D4E46 /* Frameworks */,
+				F99C206E89E3B48AFE660F2693BC6ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuptelaBluetoothSdk;
+			productName = RuptelaBluetoothSdk;
+			productReference = 6A4D7AE3F98C328D8C079D7D346A9CDF /* RuptelaBluetoothSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CC82CCD4576D88A872D20B5DDE1B952 /* Pods-RuptelaBluetoothSdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A118F6187D352542977DAE9101D8E348 /* Build configuration list for PBXNativeTarget "Pods-RuptelaBluetoothSdk_Tests" */;
+			buildPhases = (
+				3B7DAFC67F017048387B2A1D585EEDB1 /* Headers */,
+				7D63019FE0452207D5A753737FCD1ADD /* Sources */,
+				D4BBCE7BB1C6867CD2E46337911ED471 /* Frameworks */,
+				EC9DA363EDD894BB4928D427C14DF270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F71BD31F8FC0DAA66710D82D7CA1E59 /* PBXTargetDependency */,
+			);
+			name = "Pods-RuptelaBluetoothSdk_Tests";
+			productName = "Pods-RuptelaBluetoothSdk_Tests";
+			productReference = 2AFD99781EFC1D7956CB1962A076E355 /* Pods_RuptelaBluetoothSdk_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 72972C6C38B82FD2AE37EDC1071308BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC82CCD4576D88A872D20B5DDE1B952 /* Pods-RuptelaBluetoothSdk_Tests */,
+				19EBD6E13C7D3F7C21C18D37C106A4EC /* RuptelaBluetoothSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9DA363EDD894BB4928D427C14DF270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99C206E89E3B48AFE660F2693BC6ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D63019FE0452207D5A753737FCD1ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC62AC4A200533075954543BDEA3AF8 /* Pods-RuptelaBluetoothSdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AEDDD63FEA3F876D2D63865F98557D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FAF35920C07A6BC40812DC61609D75 /* RuptelaBluetoothSdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F71BD31F8FC0DAA66710D82D7CA1E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RuptelaBluetoothSdk;
+			target = 19EBD6E13C7D3F7C21C18D37C106A4EC /* RuptelaBluetoothSdk */;
+			targetProxy = 21F699595E7481AFDD90BC013B561FA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0343915988CA2A097865BB7F5DD8490F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04A53D05D1778F1CCCA7430CF583180 /* RuptelaBluetoothSdk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RuptelaBluetoothSdk/RuptelaBluetoothSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RuptelaBluetoothSdk/RuptelaBluetoothSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RuptelaBluetoothSdk/RuptelaBluetoothSdk.modulemap";
+				PRODUCT_MODULE_NAME = RuptelaBluetoothSdk;
+				PRODUCT_NAME = RuptelaBluetoothSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4CD863E704E937FE1B1AE3379FC99C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714E4089210DD4A655F13D7251443039 /* RuptelaBluetoothSdk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RuptelaBluetoothSdk/RuptelaBluetoothSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RuptelaBluetoothSdk/RuptelaBluetoothSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RuptelaBluetoothSdk/RuptelaBluetoothSdk.modulemap";
+				PRODUCT_MODULE_NAME = RuptelaBluetoothSdk;
+				PRODUCT_NAME = RuptelaBluetoothSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B72896102D57060AB44E1FCB0C08A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E262F311FB39F98AA106132F7084CED0 /* Pods-RuptelaBluetoothSdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RuptelaBluetoothSdk_Tests/Pods-RuptelaBluetoothSdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RuptelaBluetoothSdk_Tests/Pods-RuptelaBluetoothSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1915CAF5300BDBC5A346A6F6D4938E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E1B9505C22EFBB8623F064B1C64D336 /* Pods-RuptelaBluetoothSdk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RuptelaBluetoothSdk_Tests/Pods-RuptelaBluetoothSdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RuptelaBluetoothSdk_Tests/Pods-RuptelaBluetoothSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4510354C87904C8B61FD2D4AB61534F1 /* Build configuration list for PBXNativeTarget "RuptelaBluetoothSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CD863E704E937FE1B1AE3379FC99C84 /* Debug */,
+				0343915988CA2A097865BB7F5DD8490F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A118F6187D352542977DAE9101D8E348 /* Build configuration list for PBXNativeTarget "Pods-RuptelaBluetoothSdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B72896102D57060AB44E1FCB0C08A3B /* Debug */,
+				B1915CAF5300BDBC5A346A6F6D4938E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
