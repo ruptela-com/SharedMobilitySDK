@@ -4,33 +4,53 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/Info.plist</key>
+		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		/O+ht1kPTsPWEMNX+vCYHFdBE6c=
+		v3jUZqGOfVtM08NKykgKlijo3Lk=
 		</data>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/TapkeyMobileLibContainer</key>
+		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<data>
-		pY1ryiNGjEy56yPcpU0XvOEEJwU=
+		qXfJrCz4kXsXZiAPt+YJyjgxiTo=
 		</data>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeDirectory</key>
+		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		86pH7u5YsgFvGnrsFuOisCDXOKc=
+		iPSS0LnlYFm8HNniXdCeprJnYpQ=
 		</data>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeRequirements</key>
+		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		394HNd3qzpFFPYA6ov/AqLM3JNI=
+		2trRsGEEekqEy0R9es37Pvas3M8=
 		</data>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeRequirements-1</key>
+		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		5XP7vo4z0PVDPA+whDIjOFoPqK4=
+		GSEewmaf68GXEfY4wq17DXDFNE8=
 		</data>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		NTXzLm1YjuLPF6a+qs2OIv5m/40=
+		skFrHc4zJGuusxANliLf9pSi1qA=
 		</data>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeSignature</key>
+		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		ZY9W9v7W1PoYa4xQS/1okwGm/lQ=
+		wbXiqwiaDy7cUtu32dU3B6llWtk=
+		</data>
+		<key>Frameworks/libswiftMetal.dylib</key>
+		<data>
+		7hO4g+fVXKTpM8lPoAZrYcVzccU=
+		</data>
+		<key>Frameworks/libswiftObjectiveC.dylib</key>
+		<data>
+		peXTKPXMH4cWC+O8wSqMN7oNeIA=
+		</data>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<data>
+		rZEj0yH/C96guOhnawbJrbMfb0w=
+		</data>
+		<key>Frameworks/libswiftUIKit.dylib</key>
+		<data>
+		FX2ifLFsUHTt0wjoxllQsEUGEdc=
+		</data>
+		<key>Frameworks/libswiftos.dylib</key>
+		<data>
+		z1adjQLPCdAuJhszkR1WxKjsGxw=
 		</data>
 		<key>Headers/RuptelaBluetoothSdk-Swift.h</key>
 		<data>
@@ -83,53 +103,88 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/Info.plist</key>
+		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iUS+hTwjaIAElk/YWMaxWoe6Nmdz8r+duX1tlPffcDU=
+			dUyaQHXexMniVknmXRCVVYVHQY9KUhsnHhy+cTe/RlI=
 			</data>
 		</dict>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/TapkeyMobileLibContainer</key>
+		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a+lgJx0gjcP3GLwGQbGYOUvMC/cQE9TRDW/BAaPPXu8=
+			IntNbTenBytOdTJCdBOJ5d2wn+l5OnZx0CmZcJAxP/s=
 			</data>
 		</dict>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeDirectory</key>
+		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XD3yZHieWBvE8tVm9qu6hnLJLJ/+eAIaWR8QwG0Uczk=
+			+Ad/9loEHuoPLB0PDxqeTEWULR6sJMaU1InnbqYR5CE=
 			</data>
 		</dict>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeRequirements</key>
+		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y6j9PyPWoXS9+gxmbsg7nvZLEEgWumdOjQ4IvQx+3fU=
+			FVhbZ2YDyC1qOxyOvakV39jiaekofpulD8Pkes+pL4U=
 			</data>
 		</dict>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeRequirements-1</key>
+		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			00N23SbCSvOaiE/JnsxsGj8KpmjSKQ+1+nSJ5xQ+SD4=
+			NuZjVb0ZCAxzHBaVjzaiI/zAaREcEQ+CA+qnbJdBiEc=
 			</data>
 		</dict>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/K9PCiiYGScZKIyb9WfyWl1KOp2RebQ/iF5HNpEyNwM=
+			DYKuxECPhBTEJ3vFDWqvHogoA2iZKk5mq4G+SKbw0Hs=
 			</data>
 		</dict>
-		<key>Frameworks/TapkeyMobileLibContainer.framework/_CodeSignature/CodeSignature</key>
+		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xVnJaagdtysJiqzmPy8sR1LZzlEuLnzyT887LFmVdoQ=
+			PgQIGNkCDhxviW0P8BLqEEO2T7OotP7skXOtO74GwCU=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftMetal.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zem/O2yRD/4G/OQ0TgLpdkJEgCFhe0QKweTwCuGkI8Y=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftObjectiveC.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ak+v4+rlgx4ZJTmM4DsZperOPtlJ87OeC5Q3AGUZZGo=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VrJqVFUkmn9er/Uo8Zz74IDl+pBlYVQ8mwpTRb4TM4k=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftUIKit.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DmiF/0CHfeLSqoV80caRdP7WT0zL2ga86rVcT5pXZ3E=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftos.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7A04iViuLn1GqbZvuFI9wWyCqzZoPoKtoxGHB4jENOs=
 			</data>
 		</dict>
 		<key>Headers/RuptelaBluetoothSdk-Swift.h</key>
