@@ -1,0 +1,186 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name RuptelaBluetoothSdk
+import Foundation
+@_exported import RuptelaBluetoothSdk
+import Swift
+import TapkeyMobileLib
+import _Concurrency
+@_hasMissingDesignatedInitializers public class ObserverRegistration {
+  public func close()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class BluetoothLock {
+  public func getId() -> Swift.String?
+  public func getBluetoothAddress() -> Swift.String?
+  public func getLastSeen() -> Foundation.Date?
+  public func getRssi() -> Swift.Int?
+  public func getHashCode() -> Swift.Int?
+  public func equals(to lock: RuptelaBluetoothSdk.BluetoothLock) -> Swift.Bool?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class BluetoothLockScanner {
+  public func isLockNearby(lockId: Swift.String) -> Swift.Bool
+  public func getLock(lockId: Swift.String) -> RuptelaBluetoothSdk.BluetoothLock?
+  public func getLocks() -> [RuptelaBluetoothSdk.BluetoothLock]
+  public func addLocksChangeObserver(completion: @escaping ([RuptelaBluetoothSdk.BluetoothLock]) -> Swift.Void) -> RuptelaBluetoothSdk.ObserverRegistration
+  public func startForegroundScan() -> RuptelaBluetoothSdk.ObserverRegistration
+  @objc deinit
+}
+public class RuptelaError : Swift.Error {
+  public init(description: Swift.String)
+  public func getDescription() -> Swift.String
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LockCommandResponse {
+  public enum State {
+    case success
+    case failure
+    public static func == (a: RuptelaBluetoothSdk.LockCommandResponse.State, b: RuptelaBluetoothSdk.LockCommandResponse.State) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum FailureReason {
+    case ignitionOn
+    case frontDriverDoor
+    case frontPassengerDoor
+    case rearDriverDoor
+    case rearPassengerDoor
+    case hatchDoor
+    case engineHood
+    case athFail
+    public static func == (a: RuptelaBluetoothSdk.LockCommandResponse.FailureReason, b: RuptelaBluetoothSdk.LockCommandResponse.FailureReason) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var state: RuptelaBluetoothSdk.LockCommandResponse.State
+  public var failureReasons: [RuptelaBluetoothSdk.LockCommandResponse.FailureReason]
+  public var position: RuptelaBluetoothSdk.LockCommandResponse.Position
+  public var vehicleData: RuptelaBluetoothSdk.LockCommandResponse.VehicleData?
+  public func getState() -> RuptelaBluetoothSdk.LockCommandResponse.State
+  public func getFailureReasons() -> [RuptelaBluetoothSdk.LockCommandResponse.FailureReason]
+  public func getPosition() -> RuptelaBluetoothSdk.LockCommandResponse.Position
+  public func getVehicleData() -> RuptelaBluetoothSdk.LockCommandResponse.VehicleData?
+  @_hasMissingDesignatedInitializers public class VehicleData {
+    public enum BatteryChargeState : Swift.Int {
+      case charging
+      case notCharging
+      case unknown
+      public init?(rawValue: Swift.Int)
+      public typealias RawValue = Swift.Int
+      public var rawValue: Swift.Int {
+        get
+      }
+    }
+    public var mileage: Swift.Double?
+    public var fuelLevelLiters: Swift.Int?
+    public var fuelLevelPercent: Swift.Double?
+    public var batteryLevelPercent: Swift.Double?
+    public var rechargeDistance: Swift.Double?
+    public var batteryChargeState: RuptelaBluetoothSdk.LockCommandResponse.VehicleData.BatteryChargeState?
+    public func getMileage() -> Swift.Double?
+    public func getFuelLevelLiters() -> Swift.Int?
+    public func getFuelLevelPercent() -> Swift.Double?
+    public func getBatteryLevelPercent() -> Swift.Double?
+    public func getRechargeDistance() -> Swift.Double?
+    public func getBatteryChargeState() -> RuptelaBluetoothSdk.LockCommandResponse.VehicleData.BatteryChargeState?
+    @objc deinit
+  }
+  @_hasMissingDesignatedInitializers public class Position {
+    public func getLongitude() -> Swift.Double
+    public func getLatitude() -> Swift.Double
+    @objc deinit
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class BluetoothKeysUpdateManager {
+  public func fetchUpdates(completion: @escaping (RuptelaBluetoothSdk.RuptelaError?) -> Swift.Void)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class RuptelaAppContext {
+  public func getUserManager() -> RuptelaBluetoothSdk.UserManager
+  public func getBluetoothKeysUpdateManager() -> RuptelaBluetoothSdk.BluetoothKeysUpdateManager
+  public func getBluetoothLockScanner() -> RuptelaBluetoothSdk.BluetoothLockScanner
+  public func getLockCommandService() -> RuptelaBluetoothSdk.LockCommandService
+  @objc deinit
+}
+public enum AthCommand : Swift.Int {
+  case skip
+  case on
+  case off
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class RuptelaAppContextBuilder {
+  public init()
+  public func build() -> RuptelaBluetoothSdk.RuptelaAppContext?
+  public func setTokenRefreshHandler(tokenRefreshHandler: RuptelaBluetoothSdk.AccessTokenRefreshHandler) -> RuptelaBluetoothSdk.RuptelaAppContextBuilder
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class UserManager {
+  public func logInAsync(accessToken: Swift.String, completion: @escaping (Swift.String?, RuptelaBluetoothSdk.RuptelaError?) -> Swift.Void)
+  public func isLoggedIn(userId: Swift.String) -> Swift.Bool
+  public func logOutAsync(userId: Swift.String, completion: @escaping (RuptelaBluetoothSdk.RuptelaError?) -> Swift.Void)
+  public func updateAccessToken(userId: Swift.String, accessToken: Swift.String)
+  @objc deinit
+}
+public protocol AccessTokenRefreshHandler {
+  func refreshAuthenticationAsync(userId: Swift.String, completion: @escaping (Swift.String?, Swift.Error?) -> Swift.Void)
+  func onRefreshFailed(userId: Swift.String)
+}
+public enum CommandStatus : Swift.Int {
+  case ok
+  case failed
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum ErrorCode : Swift.Int {
+  case commandTimeout
+  case duplicateCommand
+  case lockError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class LockCommandError : Swift.Error {
+  public func getErrorCode() -> RuptelaBluetoothSdk.ErrorCode
+  public func getDescription() -> Swift.String
+  public func isRetryable() -> Swift.Bool
+  @objc deinit
+}
+public enum LockCommand : Swift.Int {
+  case skip
+  case lock
+  case unlock
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class PersistentTokenRefreshError : Swift.Error {
+  public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LockCommandService {
+  public func lock(bluetoothLock: RuptelaBluetoothSdk.BluetoothLock, block: Swift.Bool, completion: @escaping (RuptelaBluetoothSdk.LockCommandResponse?, RuptelaBluetoothSdk.LockCommandError?) -> Swift.Void)
+  public func unlock(bluetoothLock: RuptelaBluetoothSdk.BluetoothLock, unblock: Swift.Bool, completion: @escaping (RuptelaBluetoothSdk.LockCommandResponse?, RuptelaBluetoothSdk.LockCommandError?) -> Swift.Void)
+  public func block(bluetoothLock: RuptelaBluetoothSdk.BluetoothLock, completion: @escaping (RuptelaBluetoothSdk.LockCommandResponse?, RuptelaBluetoothSdk.LockCommandError?) -> Swift.Void)
+  public func unblock(bluetoothLock: RuptelaBluetoothSdk.BluetoothLock, completion: @escaping (RuptelaBluetoothSdk.LockCommandResponse?, RuptelaBluetoothSdk.LockCommandError?) -> Swift.Void)
+  @objc deinit
+}
