@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RuptelaBluetoothSdk'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'Summary of RuptelaBluetoothSdk.'
 
   s.description      = "A short description of RuptelaBluetoothSdk."
