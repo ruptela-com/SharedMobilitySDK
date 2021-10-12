@@ -1,16 +1,16 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'RuptelaBluetoothSdk'
+  s.name             = 'RuptelaBluetoothiOSSdk'
   s.version          = '0.2.6'
-  s.summary          = 'Summary of RuptelaBluetoothSdk.'
+  s.summary          = 'Summary of RuptelaBluetoothiOSSdk.'
 
-  s.description      = "A short description of RuptelaBluetoothSdk."
+  s.description      = "A short description of RuptelaBluetoothiOSSdk."
 
-  s.homepage         = 'https://github.com/ruptela-com/SharedMobilityCocoaPods'
+  s.homepage         = 'https://github.com/ruptela-com/SharedMobilitySDK'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ruptela UAB' => 'tadas.motiejunas@ruptela.com' }
-  s.source           = { :git => 'https://github.com/ruptela-com/SharedMobilityCocoaPods.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ruptela-com/SharedMobilitySDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
