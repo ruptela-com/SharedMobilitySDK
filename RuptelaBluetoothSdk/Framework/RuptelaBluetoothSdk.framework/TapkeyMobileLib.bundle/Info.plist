@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>BuildString</key>
-	<string>20210323-1401_D_21305000_713f0083</string>
+	<string>20210927-1839_M_21706000_b37183c8</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.13.5</string>
+	<string>2.17.6</string>
 	<key>CFBundleVersion</key>
-	<string>2.13.5.0</string>
+	<string>2.17.6.0</string>
 	<key>CFBundleVersionCode</key>
-	<string>21305000</string>
+	<string>21706000</string>
 </dict>
 </plist>

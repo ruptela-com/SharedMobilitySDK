@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8ZzgfP00C/9hAvH0B+Ss9lGTdIU=
+		T9QUUylbKk05OLMKDwTVCQXeVCY=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		fa96MBr5SWzUQYG3LqOM0lTmlD0=
+		WBj99VuESxH1NeyMm11qJIBWWIc=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		fa96MBr5SWzUQYG3LqOM0lTmlD0=
+		WBj99VuESxH1NeyMm11qJIBWWIc=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		owvzaIwdlDiE1jEeyOh8J8OihNI=
+		4rjWU+2SxxdJ1gkebjpqGW9kd4M=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		owvzaIwdlDiE1jEeyOh8J8OihNI=
+		4rjWU+2SxxdJ1gkebjpqGW9kd4M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>TapkeyMobileLib.bundle/Info.plist</key>
 		<data>
-		sEMkkHwiH5bL0dOve4GdSY5LUHU=
+		LpPjJ4IqA1EUXRoz5qADKXIvqtU=
 		</data>
 		<key>TapkeyMobileLib.bundle/TKEnvironment-Default-Info.plist</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xegxKbZSk0MQCjUmfOCmO/KccFtZyFcXNAHi13j2NCU=
+			f1rbsetKdmpFrw0P5r+R7bV7iP0ZSSWK1/d/PYhIkyY=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xegxKbZSk0MQCjUmfOCmO/KccFtZyFcXNAHi13j2NCU=
+			f1rbsetKdmpFrw0P5r+R7bV7iP0ZSSWK1/d/PYhIkyY=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			quaN34xD3VFBU4qW91zKaTccntp6NzS8ZhYvHhyNJtI=
+			u475EYIM1A7P4Ovrwwu80vLlmxHmwMymoHHYXvmnjes=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftdoc</key>
@@ -130,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			quaN34xD3VFBU4qW91zKaTccntp6NzS8ZhYvHhyNJtI=
+			u475EYIM1A7P4Ovrwwu80vLlmxHmwMymoHHYXvmnjes=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HcF0H8Ol3ZvFcxpLw4dH5Bh9tq1ehVYxFb7pYKfkmH8=
+			KEAoCLIbPbzztZlhW8PuDBllDydD7M/EJEn4OBa1YDM=
 			</data>
 		</dict>
 		<key>TapkeyMobileLib.bundle/TKEnvironment-Default-Info.plist</key>
