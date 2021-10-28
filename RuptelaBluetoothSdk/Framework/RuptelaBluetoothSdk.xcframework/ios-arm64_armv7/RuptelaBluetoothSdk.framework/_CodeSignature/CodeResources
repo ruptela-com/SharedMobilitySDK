@@ -14,87 +14,67 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1pqFSlfOjZL7svKAEW6mNwzz3lo=
-		</data>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm.swiftsourceinfo</key>
-		<data>
-		oXhgV3bY3ncx9tIj6knrF7fRT/o=
-		</data>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		kW89QmI4w8+vTxpMntFUsjwq0k8=
-		</data>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		kW89QmI4w8+vTxpMntFUsjwq0k8=
-		</data>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
-		<data>
-		oXhgV3bY3ncx9tIj6knrF7fRT/o=
-		</data>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/armv7.swiftsourceinfo</key>
-		<data>
-		oXhgV3bY3ncx9tIj6knrF7fRT/o=
+		78L8oUHysDpROFtFIW5O4XvieIQ=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm.swiftdoc</key>
 		<data>
-		04tLwdZ+/jUWSAQ3qbrf7pW93oM=
+		LYiQitvhAqGtjvovmu8J+xQtnrA=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm.swiftinterface</key>
 		<data>
-		d/9INdymPm8XF4yPLMRL7lYcMd4=
+		yOlozfR8uUlENug3iFwFITsL9GY=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm.swiftmodule</key>
 		<data>
-		PrLAAIq+8V4VmJEaHVbQk2duNew=
+		87yjKmtGLI3VJOMGwW9KO5oh0CE=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		RepyjXGqlM3/jLOks/tI03TjJ2s=
+		0uM4lIgHz2lVezd0CDv14uCg0QM=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		f6Zku1QRWkwjnZ4fZSPrFzY0ErQ=
+		0MLk/JWq54doZ181iGh125Q89jM=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mLi1mfG7is0wYiQjm58AWR7JyZ4=
+		rj5pwcoqyzfACbkWR/vBab6pZaw=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		RepyjXGqlM3/jLOks/tI03TjJ2s=
+		0uM4lIgHz2lVezd0CDv14uCg0QM=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		f6Zku1QRWkwjnZ4fZSPrFzY0ErQ=
+		0MLk/JWq54doZ181iGh125Q89jM=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		mLi1mfG7is0wYiQjm58AWR7JyZ4=
+		rj5pwcoqyzfACbkWR/vBab6pZaw=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		04tLwdZ+/jUWSAQ3qbrf7pW93oM=
+		LYiQitvhAqGtjvovmu8J+xQtnrA=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		d/9INdymPm8XF4yPLMRL7lYcMd4=
+		yOlozfR8uUlENug3iFwFITsL9GY=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		PrLAAIq+8V4VmJEaHVbQk2duNew=
+		87yjKmtGLI3VJOMGwW9KO5oh0CE=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7.swiftdoc</key>
 		<data>
-		04tLwdZ+/jUWSAQ3qbrf7pW93oM=
+		LYiQitvhAqGtjvovmu8J+xQtnrA=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7.swiftinterface</key>
 		<data>
-		d/9INdymPm8XF4yPLMRL7lYcMd4=
+		yOlozfR8uUlENug3iFwFITsL9GY=
 		</data>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		PrLAAIq+8V4VmJEaHVbQk2duNew=
+		87yjKmtGLI3VJOMGwW9KO5oh0CE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -133,224 +113,169 @@
 			sdXEOdEQNTB7FoEFRC8YBIbvpicSLra9oBur4dpdyo8=
 			</data>
 		</dict>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oXhgV3bY3ncx9tIj6knrF7fRT/o=
-			</data>
-			<key>hash2</key>
-			<data>
-			lTI0EwkzF+hxLGXNyH0mvdD+fJSTCIOG7CPpHDbbtbo=
-			</data>
-		</dict>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kW89QmI4w8+vTxpMntFUsjwq0k8=
-			</data>
-			<key>hash2</key>
-			<data>
-			dmM3yi6MR9V/3V3/84ZXlpP1YBDagZQRyb8KwosIJOQ=
-			</data>
-		</dict>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kW89QmI4w8+vTxpMntFUsjwq0k8=
-			</data>
-			<key>hash2</key>
-			<data>
-			dmM3yi6MR9V/3V3/84ZXlpP1YBDagZQRyb8KwosIJOQ=
-			</data>
-		</dict>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oXhgV3bY3ncx9tIj6knrF7fRT/o=
-			</data>
-			<key>hash2</key>
-			<data>
-			lTI0EwkzF+hxLGXNyH0mvdD+fJSTCIOG7CPpHDbbtbo=
-			</data>
-		</dict>
-		<key>Modules/RuptelaBluetoothSdk.swiftmodule/Project/armv7.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oXhgV3bY3ncx9tIj6knrF7fRT/o=
-			</data>
-			<key>hash2</key>
-			<data>
-			lTI0EwkzF+hxLGXNyH0mvdD+fJSTCIOG7CPpHDbbtbo=
-			</data>
-		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			04tLwdZ+/jUWSAQ3qbrf7pW93oM=
+			LYiQitvhAqGtjvovmu8J+xQtnrA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tiB0q94RKgDoD9NmmdQgufGjDfCSTxbeBSYV7dLXeNw=
+			SK1xXR58wMhnp9vDtOZIpqV4wH55lN8JYrzy8Mp/+Hg=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d/9INdymPm8XF4yPLMRL7lYcMd4=
+			yOlozfR8uUlENug3iFwFITsL9GY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0upscSVO5348W1vSJ1ij/BqDpCxxp8Bhwp1pP+DTYME=
+			B86MPHhG4r06zyat5TTXaQz4LOd/Y7zWid126782Tkc=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PrLAAIq+8V4VmJEaHVbQk2duNew=
+			87yjKmtGLI3VJOMGwW9KO5oh0CE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LQb6SOorEWZn1hoyzqbsD2g3fPospshh82nss/3l04A=
+			Jfv3FTMSHT5gL+9qnPpW2SrRpS2sAnYEVYYaKLFCyQY=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RepyjXGqlM3/jLOks/tI03TjJ2s=
+			0uM4lIgHz2lVezd0CDv14uCg0QM=
 			</data>
 			<key>hash2</key>
 			<data>
-			nF3uXpfbE2s0wGrIYSt7e8muWGi/vYTAO1MitbCxhhc=
+			HAJpQ9VGAvxOhz2ApfrIN9tu4b8kZojHR69t29SOJ5g=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f6Zku1QRWkwjnZ4fZSPrFzY0ErQ=
+			0MLk/JWq54doZ181iGh125Q89jM=
 			</data>
 			<key>hash2</key>
 			<data>
-			s3KGfhFiELx3MRX7DkCq2mVb38SJ+GiNugeH0hGeKUU=
+			ruNU162QyK7s7MjejHNdfG4HB/RIsj26nVQJe3r43kE=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mLi1mfG7is0wYiQjm58AWR7JyZ4=
+			rj5pwcoqyzfACbkWR/vBab6pZaw=
 			</data>
 			<key>hash2</key>
 			<data>
-			H+SOc3vlvcSDDCeeEAaS7q8iBEWVFDaxF7JO7AxSaxo=
+			IjcEXxlRpI+936pB3Wq941uScC/24uL7b7VpnxhuLeM=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RepyjXGqlM3/jLOks/tI03TjJ2s=
+			0uM4lIgHz2lVezd0CDv14uCg0QM=
 			</data>
 			<key>hash2</key>
 			<data>
-			nF3uXpfbE2s0wGrIYSt7e8muWGi/vYTAO1MitbCxhhc=
+			HAJpQ9VGAvxOhz2ApfrIN9tu4b8kZojHR69t29SOJ5g=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f6Zku1QRWkwjnZ4fZSPrFzY0ErQ=
+			0MLk/JWq54doZ181iGh125Q89jM=
 			</data>
 			<key>hash2</key>
 			<data>
-			s3KGfhFiELx3MRX7DkCq2mVb38SJ+GiNugeH0hGeKUU=
+			ruNU162QyK7s7MjejHNdfG4HB/RIsj26nVQJe3r43kE=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mLi1mfG7is0wYiQjm58AWR7JyZ4=
+			rj5pwcoqyzfACbkWR/vBab6pZaw=
 			</data>
 			<key>hash2</key>
 			<data>
-			H+SOc3vlvcSDDCeeEAaS7q8iBEWVFDaxF7JO7AxSaxo=
+			IjcEXxlRpI+936pB3Wq941uScC/24uL7b7VpnxhuLeM=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			04tLwdZ+/jUWSAQ3qbrf7pW93oM=
+			LYiQitvhAqGtjvovmu8J+xQtnrA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tiB0q94RKgDoD9NmmdQgufGjDfCSTxbeBSYV7dLXeNw=
+			SK1xXR58wMhnp9vDtOZIpqV4wH55lN8JYrzy8Mp/+Hg=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d/9INdymPm8XF4yPLMRL7lYcMd4=
+			yOlozfR8uUlENug3iFwFITsL9GY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0upscSVO5348W1vSJ1ij/BqDpCxxp8Bhwp1pP+DTYME=
+			B86MPHhG4r06zyat5TTXaQz4LOd/Y7zWid126782Tkc=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PrLAAIq+8V4VmJEaHVbQk2duNew=
+			87yjKmtGLI3VJOMGwW9KO5oh0CE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LQb6SOorEWZn1hoyzqbsD2g3fPospshh82nss/3l04A=
+			Jfv3FTMSHT5gL+9qnPpW2SrRpS2sAnYEVYYaKLFCyQY=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			04tLwdZ+/jUWSAQ3qbrf7pW93oM=
+			LYiQitvhAqGtjvovmu8J+xQtnrA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tiB0q94RKgDoD9NmmdQgufGjDfCSTxbeBSYV7dLXeNw=
+			SK1xXR58wMhnp9vDtOZIpqV4wH55lN8JYrzy8Mp/+Hg=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d/9INdymPm8XF4yPLMRL7lYcMd4=
+			yOlozfR8uUlENug3iFwFITsL9GY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0upscSVO5348W1vSJ1ij/BqDpCxxp8Bhwp1pP+DTYME=
+			B86MPHhG4r06zyat5TTXaQz4LOd/Y7zWid126782Tkc=
 			</data>
 		</dict>
 		<key>Modules/RuptelaBluetoothSdk.swiftmodule/armv7.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PrLAAIq+8V4VmJEaHVbQk2duNew=
+			87yjKmtGLI3VJOMGwW9KO5oh0CE=
 			</data>
 			<key>hash2</key>
 			<data>
-			LQb6SOorEWZn1hoyzqbsD2g3fPospshh82nss/3l04A=
+			Jfv3FTMSHT5gL+9qnPpW2SrRpS2sAnYEVYYaKLFCyQY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
