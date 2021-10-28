@@ -1,7 +1,6 @@
-
 Pod::Spec.new do |s|
   s.name             = 'RuptelaBluetoothiOSSdk'
-  s.version          = '0.2.10'
+  s.version          = '0.3.1'
   s.summary          = 'Summary of RuptelaBluetoothiOSSdk.'
 
   s.description      = "A short description of RuptelaBluetoothiOSSdk."
@@ -12,10 +11,15 @@ Pod::Spec.new do |s|
   s.author           = { 'Ruptela UAB' => 'tadas.motiejunas@ruptela.com' }
   s.source           = { :git => 'https://github.com/ruptela-com/SharedMobilitySDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.3'
+  s.ios.deployment_target = '9.0'
 
   s.static_framework = true
 
-  s.ios.vendored_frameworks = ['RuptelaBluetoothSdk/Framework/RuptelaBluetoothSdk.xcframework']
+  s.ios.vendored_frameworks = 'RuptelaBluetoothSdk/Framework/RuptelaBluetoothSdk.xcframework'
 
+  # for the following private pod to work add the following lines at the top of app's podfile:
+  # source 'https://github.com/tapkey/TapkeyCocoaPods'
+  # source 'https://cdn.cocoapods.org/'
+
+  s.ios.dependency 'TapkeyMobileLib', '2.18.0.1'
 end
