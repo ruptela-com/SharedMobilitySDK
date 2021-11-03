@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>bleCharacteristicUUID</key>
+        <string>74680002-736D-6172-7420-77617920696E</string>
+        <key>bleServiceUUID</key>
+        <string>6e65742e-7470-6b79-2ea0-000006060101</string>
+        <key>serviceBaseProdUri</key>
+        <string>https://my.tapkey.com</string>
+        <key>serviceBaseTestUri</key>
+        <string>https://prod-test.dev.tapkey.net</string>
+        <key>tenantId</key>
+        <string>tk</string>
+    </dict>
+</plist>

@@ -1,10 +1,9 @@
-
 Pod::Spec.new do |s|
   s.name             = 'RuptelaBluetoothiOSSdk'
-  s.version          = '0.2.7'
-  s.summary          = 'Summary of RuptelaBluetoothiOSSdk.'
+  s.version          = '0.3.1'
+  s.summary          = 'RuptelaBluetoothiOSSdk library.'
 
-  s.description      = "A short description of RuptelaBluetoothiOSSdk."
+  s.description      = "RuptelaBluetoothiOSSdk library."
 
   s.homepage         = 'https://github.com/ruptela-com/SharedMobilitySDK'
 
@@ -16,13 +15,11 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
 
-  s.ios.vendored_frameworks = 'RuptelaBluetoothSdk/Framework/RuptelaBluetoothSdk.framework'
+  s.ios.vendored_frameworks = 'RuptelaBluetoothSdk/Framework/RuptelaBluetoothSdk.xcframework'
 
-  s.user_target_xcconfig = {
-        'SWIFT_INCLUDE_PATHS' => '"$(PODS_ROOT)/Framework/RuptelaBluetoothSdk.framework"'
-      }
+  # for the following private pod to work add the following lines at the top of app's podfile:
+  # source 'https://github.com/tapkey/TapkeyCocoaPods'
+  # source 'https://cdn.cocoapods.org/'
 
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
+  s.ios.dependency 'TapkeyMobileLib', '2.18.0.1'
 end
