@@ -17,7 +17,7 @@
 		607FACE51AFB9204008FA782 /* RuptelaBluetoothSdk_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuptelaBluetoothSdk_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7C39B335725A67F0537B3632 /* RuptelaBluetoothSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RuptelaBluetoothSdk.podspec; path = ../RuptelaBluetoothSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C39B335725A67F0537B3632 /* RuptelaBluetoothiOSSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RuptelaBluetoothiOSSdk.podspec; path = ../RuptelaBluetoothiOSSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7F62B49C454C93725AC22EF8 /* Pods_RuptelaBluetoothSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuptelaBluetoothSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4C72FC2D0FBB7943B62124 /* Pods-RuptelaBluetoothSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuptelaBluetoothSdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-RuptelaBluetoothSdk_Tests/Pods-RuptelaBluetoothSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FE7D8B391EC19CADC5806BCD /* Pods-RuptelaBluetoothSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuptelaBluetoothSdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RuptelaBluetoothSdk_Tests/Pods-RuptelaBluetoothSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				7C39B335725A67F0537B3632 /* RuptelaBluetoothSdk.podspec */,
+				7C39B335725A67F0537B3632 /* RuptelaBluetoothiOSSdk.podspec */,
 				158928C347478734EB746D24 /* README.md */,
 				0716BE76FE9FEF8855C38A33 /* LICENSE */,
 			);

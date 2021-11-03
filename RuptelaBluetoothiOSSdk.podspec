@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'RuptelaBluetoothiOSSdk'
   s.version          = '0.3.1'
-  s.summary          = 'Summary of RuptelaBluetoothiOSSdk.'
+  s.summary          = 'RuptelaBluetoothiOSSdk library.'
 
-  s.description      = "A short description of RuptelaBluetoothiOSSdk."
+  s.description      = "RuptelaBluetoothiOSSdk library."
 
   s.homepage         = 'https://github.com/ruptela-com/SharedMobilitySDK'
 
