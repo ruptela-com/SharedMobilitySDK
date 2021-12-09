@@ -9,10 +9,10 @@ it, simply add the following lines to your Podfile:
   source 'https://cdn.cocoapods.org/'
 
   # in target dependencies to get the library through SSH:
-  pod 'RuptelaBluetoothiOSSdk', :git => 'git@github.com:ruptela-com/SharedMobilitySDK.git', :tag => '0.3.1'
+  pod 'RuptelaBluetoothiOSSdk', :git => 'git@github.com:ruptela-com/SharedMobilitySDK.git', :tag => '0.3.2'
   
   # or, if you want to get it through HTTPS: 
-  # pod 'RuptelaBluetoothiOSSdk', :git => 'https://github.com/ruptela-com/SharedMobilitySDK.git', :tag => '0.3.1'
+  # pod 'RuptelaBluetoothiOSSdk', :git => 'https://github.com/ruptela-com/SharedMobilitySDK.git', :tag => '0.3.12'
 ```
 
-_Note: RuptelaBluetoothSdk version 0.3.1 is compatible with Xcode 13.0 verson_
+_Note: RuptelaBluetoothSdk version 0.3.2 is compatible with Xcode 13.0 verson_

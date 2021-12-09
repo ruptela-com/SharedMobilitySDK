@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RuptelaBluetoothiOSSdk'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = 'RuptelaBluetoothiOSSdk library.'
 
   s.description      = "RuptelaBluetoothiOSSdk library."
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   # source 'https://github.com/tapkey/TapkeyCocoaPods'
   # source 'https://cdn.cocoapods.org/'
 
-  s.ios.dependency 'TapkeyMobileLib', '2.18.0.1'
+  s.ios.dependency 'TapkeyMobileLib', '2.19.1.0'
 end
